@@ -15,18 +15,18 @@
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : title: "시고의 정리"
+locale                   : "ko_KR"    #블로그 언어, 한글을 윈하면 ko-KR
+title                    : "시고의 정리"     #사이트 탭에서 보이는 이름
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : "https://SiberianHedgehog.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+subtitle                 : "version 1.0"     # 화면 title 하단에 있는 소제목
+name                     : "이정아(JeongAh LEE)"   #화면 하단 영역의 이름
+description              : "An amazing website."    #설명란, 어디에 있는지는 아직
+url                      : "https://SiberianHedgehog.github.io"   #주소
+baseurl                  : # the subpath of your site, e.g. "/blog"   #오류 시 대체할 주소
+repository               : https://github.com/SiberianHedgehog/SiberianHedgehog.github.io #깃헙 레포 주소
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "시고의 정리"   # 화면 title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,30 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "LEE JeongAh"    # 이름
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"    #프로필 사진, jpg 파일 경로
+  bio              : "I am an **amazing** person."      #자기소개 : ** 굵은 글씨**, 줄바꿈 <br>
+  location         : "Republic of Korea"
+  email            : "leeja2001@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      # url: "https://github.com/SiberianHedgehog"
 
 # Site Footer
 footer:
@@ -140,7 +128,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/SiberianHedgehog"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -218,7 +206,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 15                      # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
